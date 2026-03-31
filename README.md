@@ -4,7 +4,7 @@ This repository contains a suite of Python-based scraping and automation tools. 
 
 ---
 
-## 📁 1. Industrial Directory extraction (`/VIA`)
+## 1. Industrial Directory extraction (`/VIA`)
 A multi-threaded data extraction tool targeting the Vatva Industries Association (VIA) and Naroda Industries Association (NIA) directories. This module goes beyond standard HTML scraping by employing Computer Vision and Optical Character Recognition (OCR) to extract valuable contact details hidden within company advertisement images.
 
 **Core Scripts:**
@@ -14,7 +14,7 @@ A multi-threaded data extraction tool targeting the Vatva Industries Association
 
 ---
 
-## 📁 2. WhatsApp Contact Verifier (`/WhatsApp`)
+## 2. WhatsApp Contact Verifier (`/WhatsApp`)
 An automated Selenium-based tool that verifies whether a bulk list of phone numbers (stored in an Excel sheet) is registered on WhatsApp.
 
 **Core Scripts:**
@@ -23,7 +23,7 @@ An automated Selenium-based tool that verifies whether a bulk list of phone numb
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 *   **Web Automation & Scraping**: `requests`, `BeautifulSoup4`, `selenium`, `webdriver_manager`
 *   **Data Manipulation**: `pandas`, `openpyxl`
 *   **Computer Vision & OCR**: `easyocr`, `cv2` (OpenCV), `imutils`, `numpy`
@@ -31,7 +31,7 @@ An automated Selenium-based tool that verifies whether a bulk list of phone numb
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repository**
    ```bash
