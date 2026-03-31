@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Output Data Files (VIA)
+nia_directory_copy.xlsx
+vatva_directory_copy.xlsx
+enterprise_output.xlsx
+
+# Ignoring all Excel and CSV files since this is a scraping project
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.log
+
+# Image Directories
+vatva_ads_images/
+vatva_ads_images_copy/
+
+# WhatsApp Scraper
+chrome_profile/
